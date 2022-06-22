@@ -7,7 +7,7 @@
 ```bash
 $ git clone https://github.com/favtuts/java-spring-tutorials.git
 
-$ cd SpringMvcLog4j
+$ cd spring-mvc-log4j
 
 $ mvn jetty:run
 ```
