@@ -6,7 +6,9 @@
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context-3.2.xsd">
 
-	<context:annotation-config />
+	<!-- <context:annotation-config /> -->
+	<bean
+		class="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor" />
 
 	<bean id="CustomerBean" class="com.favtuts.common.Customer">
 		<property name="action" value="buy" />
