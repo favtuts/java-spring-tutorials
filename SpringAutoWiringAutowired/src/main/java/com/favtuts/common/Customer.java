@@ -1,6 +1,7 @@
 package com.favtuts.common;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 
 public class Customer 
 {
@@ -9,6 +10,8 @@ public class Customer
 	// @Autowired
 	// To disable Dependency checking by setting the required attribute
 	@Autowired(required=false)
+	//@Qualifier("PersonBean1")
+	@Qualifier("PersonBean2")
 	private Person person;
 		
 	private int type;
