@@ -1,5 +1,7 @@
 package com.favtuts.common;
- 
+
+import org.springframework.beans.factory.annotation.Autowired;
+
 public class Customer 
 {
 	// you want autowired this field
@@ -11,6 +13,8 @@ public class Customer
 	public Person getPerson() {
 		return person;
 	}
+	
+	@Autowired
 	public void setPerson(Person person) {
 		this.person = person;
 	}
