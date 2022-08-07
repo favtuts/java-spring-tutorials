@@ -1,6 +1,10 @@
 package com.favtuts.movie;
 
-public class Movie {
+import java.io.Serializable;
+
+public class Movie implements Serializable {
+	
+	private static final long serialVersionUID = 1L;
 	
 	int id;
 	String name;
